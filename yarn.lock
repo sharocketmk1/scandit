@@ -813,6 +813,14 @@
     "@babel/helper-plugin-utils" "^7.0.0"
     "@babel/plugin-transform-typescript" "^7.7.4"
 
+"@babel/runtime-corejs2@^7.7.4":
+  version "7.7.6"
+  resolved "https://registry.yarnpkg.com/@babel/runtime-corejs2/-/runtime-corejs2-7.7.6.tgz#50b7cd4eab929b4cb66167c4972d35eaceaa124b"
+  integrity sha512-QYp/8xdH8iMin3pH5gtT/rUuttVfIcOhWBC3wh9Eh/qs4jEe39+3DpCDLgWXhMQgiCTOH8mrLSvQ0OHOCcox9g==
+  dependencies:
+    core-js "^2.6.5"
+    regenerator-runtime "^0.13.2"
+
 "@babel/runtime-corejs3@^7.7.4":
   version "7.7.4"
   resolved "https://registry.yarnpkg.com/@babel/runtime-corejs3/-/runtime-corejs3-7.7.4.tgz#f861adc1cecb9903dfd66ea97917f02ff8d79888"
@@ -1065,6 +1073,11 @@
     "@types/istanbul-lib-coverage" "^2.0.0"
     "@types/istanbul-reports" "^1.1.1"
     "@types/yargs" "^13.0.0"
+
+"@juggle/resize-observer@^2.5.0":
+  version "2.5.0"
+  resolved "https://registry.yarnpkg.com/@juggle/resize-observer/-/resize-observer-2.5.0.tgz#dbe3ebfa7b46b465dc85677ca23b15e854225a99"
+  integrity sha512-Nmkeaj5LalJeciRVEqi9Uxi61r0LvGc2yhUCykhXuft9fMyb/6VkZbwJ+UmUl8bk2k6qhwd1qJw6S2YJ0joXlA==
 
 "@mrmlnc/readdir-enhanced@^2.2.1":
   version "2.2.1"
@@ -2880,6 +2893,11 @@ core-js@^2.4.0:
   resolved "https://registry.yarnpkg.com/core-js/-/core-js-2.6.10.tgz#8a5b8391f8cc7013da703411ce5b585706300d7f"
   integrity sha512-I39t74+4t+zau64EN1fE5v2W31Adtc/REhzWN+gWRRXg6WH5qAsZm62DHpQ1+Yhe4047T55jvzz7MUqF/dBBlA==
 
+core-js@^2.6.5:
+  version "2.6.11"
+  resolved "https://registry.yarnpkg.com/core-js/-/core-js-2.6.11.tgz#38831469f9922bded8ee21c9dc46985e0399308c"
+  integrity sha512-5wjnpaT/3dV+XB4borEsnAYQchn00XSgTAWKDkEqv+K8KevjbzmofK6hfJ9TZIlpj2N0xQpazy7PiRQiWHqzWg==
+
 core-js@^3.4.1:
   version "3.5.0"
   resolved "https://registry.yarnpkg.com/core-js/-/core-js-3.5.0.tgz#66df8e49be4bd775e6f952a9d083b756ad41c1ed"
@@ -3913,7 +3931,7 @@ etag@~1.8.1:
   resolved "https://registry.yarnpkg.com/etag/-/etag-1.8.1.tgz#41ae2eeb65efa62268aebfea83ac7d79299b0887"
   integrity sha1-Qa4u62XvpiJorr/qg6x9eSmbCIc=
 
-eventemitter3@^4.0.0:
+eventemitter3@4.0.0, eventemitter3@^4.0.0:
   version "4.0.0"
   resolved "https://registry.yarnpkg.com/eventemitter3/-/eventemitter3-4.0.0.tgz#d65176163887ee59f386d64c82610b696a4a74eb"
   integrity sha512-qerSRB0p+UDEssxTtm6EDKcE7W4OaoisfIMl4CngyEhjpYglocpNg6UEqCvemdGhosAsg4sO2dXJOdyBifPGCg==
@@ -4715,6 +4733,11 @@ hosted-git-info@^2.1.4:
   version "2.8.5"
   resolved "https://registry.yarnpkg.com/hosted-git-info/-/hosted-git-info-2.8.5.tgz#759cfcf2c4d156ade59b0b2dfabddc42a6b9c70c"
   integrity sha512-kssjab8CvdXfcXMXVcvsXum4Hwdq9XGtRD3TteMEvEbq0LXyiNQr6AprqKqfeaDXze7SxWvRxdpwE6ku7ikLkg==
+
+howler@^2.1.2:
+  version "2.1.2"
+  resolved "https://registry.yarnpkg.com/howler/-/howler-2.1.2.tgz#8433a09d8fe84132a3e726e05cb2bd352ef8bd49"
+  integrity sha512-oKrTFaVXsDRoB/jik7cEpWKTj7VieoiuzMYJ7E/EU5ayvmpRhumCv3YQ3823zi9VTJkSWAhbryHnlZAionGAJg==
 
 hpack.js@^2.1.6:
   version "2.1.6"
@@ -5808,6 +5831,11 @@ jest@24.9.0:
   dependencies:
     import-local "^2.0.0"
     jest-cli "^24.9.0"
+
+js-cookie@^2.2.1:
+  version "2.2.1"
+  resolved "https://registry.yarnpkg.com/js-cookie/-/js-cookie-2.2.1.tgz#69e106dc5d5806894562902aa5baec3744e9b2b8"
+  integrity sha512-HvdH2LzI/EAZcUwA8+0nKNtWHqS+ZmijLA30RwZA0bo7ToCckjK5MkGhjED9KoRcXO6BaGI3I9UIzSA1FKFPOQ==
 
 js-levenshtein@^1.1.3:
   version "1.1.6"
@@ -6932,6 +6960,11 @@ object.values@^1.1.0:
     es-abstract "^1.12.0"
     function-bind "^1.1.1"
     has "^1.0.3"
+
+objectFitPolyfill@^2.3.0:
+  version "2.3.0"
+  resolved "https://registry.yarnpkg.com/objectFitPolyfill/-/objectFitPolyfill-2.3.0.tgz#e4c54df5943f5f65351ca07692c613c9da3b5536"
+  integrity sha512-VgF98xGs2upBxO6a4FKGEEip5kXQCYpIwrKSDQ6oyFvPAmTrm6nPD/Y/IetoHx62HE6N82hWvc7Tc0evEBkoyA==
 
 obuf@^1.0.0, obuf@^1.1.2:
   version "1.1.2"
@@ -8836,6 +8869,13 @@ rsvp@^4.8.4:
   resolved "https://registry.yarnpkg.com/rsvp/-/rsvp-4.8.5.tgz#c8f155311d167f68f21e168df71ec5b083113734"
   integrity sha512-nfMOlASu9OnRJo1mbEk2cz0D56a1MBNrJ7orjRZQG10XDyuvwksKbuXNp6qa+kbn839HwjwhBzhFmdsaEAfauA==
 
+rtcpeerconnection-shim@^1.2.15:
+  version "1.2.15"
+  resolved "https://registry.yarnpkg.com/rtcpeerconnection-shim/-/rtcpeerconnection-shim-1.2.15.tgz#e7cc189a81b435324c4949aa3dfb51888684b243"
+  integrity sha512-C6DxhXt7bssQ1nHb154lqeL0SXz5Dx4RczXZu2Aa/L1NJFnEVDxFwCBo3fqtuljhHIGceg5JKBV4XJ0gW5JKyw==
+  dependencies:
+    sdp "^2.6.0"
+
 run-async@^2.2.0:
   version "2.3.0"
   resolved "https://registry.yarnpkg.com/run-async/-/run-async-2.3.0.tgz#0371ab4ae0bdd720d4166d7dfda64ff7a445a6c0"
@@ -8922,6 +8962,21 @@ saxes@^3.1.9:
   dependencies:
     xmlchars "^2.1.1"
 
+scandit-sdk@^4.6.1:
+  version "4.6.1"
+  resolved "https://registry.yarnpkg.com/scandit-sdk/-/scandit-sdk-4.6.1.tgz#a1c73fe4c0b537032fd8febc58e193bd513127e9"
+  integrity sha512-y1quMRX+0lcCNBHucOarxre3mYqHQk+26KUenW74POL3Gj+oggH8lv56uJY57N6F09YaQRezaQxKp9F1OZIxzA==
+  dependencies:
+    "@babel/runtime-corejs2" "^7.7.4"
+    "@juggle/resize-observer" "^2.5.0"
+    eventemitter3 "4.0.0"
+    howler "^2.1.2"
+    js-cookie "^2.2.1"
+    objectFitPolyfill "^2.3.0"
+    tslib "^1.10.0"
+    ua-parser-js "^0.7.20"
+    webrtc-adapter "^7.3.0"
+
 scheduler@^0.18.0:
   version "0.18.0"
   resolved "https://registry.yarnpkg.com/scheduler/-/scheduler-0.18.0.tgz#5901ad6659bc1d8f3fdaf36eb7a67b0d6746b1c4"
@@ -8946,6 +9001,11 @@ schema-utils@^2.0.0, schema-utils@^2.0.1, schema-utils@^2.1.0, schema-utils@^2.2
   dependencies:
     ajv "^6.10.2"
     ajv-keywords "^3.4.1"
+
+sdp@^2.10.0, sdp@^2.6.0:
+  version "2.11.0"
+  resolved "https://registry.yarnpkg.com/sdp/-/sdp-2.11.0.tgz#8debe3eedb7979945ab3ce353012dd21c8ecbc11"
+  integrity sha512-3goRWORJWhZyNQWsAH3X0Z4pb4MhZFBRT/665m+LzYmmp2E9w2ifTbPl1J2EejOSrTJ10Kr3obY0yHZEN11Iaw==
 
 select-hose@^2.0.0:
   version "2.0.0"
@@ -9805,7 +9865,7 @@ ts-pnp@1.1.5, ts-pnp@^1.1.2:
   resolved "https://registry.yarnpkg.com/ts-pnp/-/ts-pnp-1.1.5.tgz#840e0739c89fce5f3abd9037bb091dbff16d9dec"
   integrity sha512-ti7OGMOUOzo66wLF3liskw6YQIaSsBgc4GOAlWRnIEj8htCxJUxskanMUoJOD6MDCRAXo36goXJZch+nOS0VMA==
 
-tslib@^1.8.1, tslib@^1.9.0:
+tslib@^1.10.0, tslib@^1.8.1, tslib@^1.9.0:
   version "1.10.0"
   resolved "https://registry.yarnpkg.com/tslib/-/tslib-1.10.0.tgz#c3c19f95973fb0a62973fb09d90d961ee43e5c8a"
   integrity sha512-qOebF53frne81cf0S9B41ByenJ3/IuH8yJKngAX35CmiZySA0khhkovshKK+jGCaMnVomla7gVlIcc3EvKPbTQ==
@@ -9868,6 +9928,11 @@ typedarray@^0.0.6:
   version "0.0.6"
   resolved "https://registry.yarnpkg.com/typedarray/-/typedarray-0.0.6.tgz#867ac74e3864187b1d3d47d996a78ec5c8830777"
   integrity sha1-hnrHTjhkGHsdPUfZlqeOxciDB3c=
+
+ua-parser-js@^0.7.20:
+  version "0.7.20"
+  resolved "https://registry.yarnpkg.com/ua-parser-js/-/ua-parser-js-0.7.20.tgz#7527178b82f6a62a0f243d1f94fd30e3e3c21098"
+  integrity sha512-8OaIKfzL5cpx8eCMAhhvTlft8GYF8b2eQr6JkCyVdrgjcytyOmPCXrqXFcUnhonRpLlh5yxEZVohm6mzaowUOw==
 
 uglify-js@3.4.x:
   version "3.4.10"
@@ -10249,6 +10314,14 @@ webpack@4.41.2:
     terser-webpack-plugin "^1.4.1"
     watchpack "^1.6.0"
     webpack-sources "^1.4.1"
+
+webrtc-adapter@^7.3.0:
+  version "7.3.0"
+  resolved "https://registry.yarnpkg.com/webrtc-adapter/-/webrtc-adapter-7.3.0.tgz#a65e18aad42759bab6ced7f8cfff11b051321e2a"
+  integrity sha512-pKcwt6IR6RLCD6jlcdOOi88iVwdzppHlkOhtgTSuZHtYTxdD09t5fA1Di7GJU7je8oHcCBlNfb7zwBsetERnmQ==
+  dependencies:
+    rtcpeerconnection-shim "^1.2.15"
+    sdp "^2.10.0"
 
 websocket-driver@>=0.5.1:
   version "0.7.3"

@@ -1,0 +1,47 @@
+/*!
+ * @license
+ *
+ * Scandit Barcode Scanner SDK for the Web
+ * v. 4.6.1
+ *
+ * Copyright © 2019 Scandit AG. All Rights Reserved.
+ *
+ * The use of this software is governed by the Scandit Terms and Conditions.
+ * https://ssl.scandit.com/terms/test.pdf
+ *
+ * The following sets forth attribution notices for third party software that may be contained in portions of the product.
+ * https://docs.scandit.com/stable/web/LICENSE
+ */
+
+/*
+object-assign
+(c) Sindre Sorhus
+@license MIT
+*/
+
+/** @license React v16.12.0
+ * react.production.min.js
+ *
+ * Copyright (c) Facebook, Inc. and its affiliates.
+ *
+ * This source code is licensed under the MIT license found in the
+ * LICENSE file in the root directory of this source tree.
+ */
+
+/** @license React v16.12.0
+ * react-dom.production.min.js
+ *
+ * Copyright (c) Facebook, Inc. and its affiliates.
+ *
+ * This source code is licensed under the MIT license found in the
+ * LICENSE file in the root directory of this source tree.
+ */
+
+/** @license React v0.18.0
+ * scheduler.production.min.js
+ *
+ * Copyright (c) Facebook, Inc. and its affiliates.
+ *
+ * This source code is licensed under the MIT license found in the
+ * LICENSE file in the root directory of this source tree.
+ */
