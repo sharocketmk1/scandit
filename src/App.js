@@ -1,11 +1,15 @@
-import React from "react";
+import React, { useState } from "react";
 import { ScanSettings, Barcode } from "scandit-sdk";
 
 import BarcodePicker from "./BarcodePicker/BarcodePicker";
 
-function App() {
+const App = (props) => {
+  const [barcode, setBarcode] = useState(props.barcode);
+  console.log('barcode', barcode);
+
   return (
     <div className="App">
+      <p>Barcode: {barcode}</p>
       <BarcodePicker
         playSoundOnScan={true}
         vibrateOnScan={true}
@@ -16,6 +20,7 @@ function App() {
           })
         }
         onScan={scanResult => {
+          console.log('scanResult', scanResult);
           document.getElementById("scandit-barcode-result").innerHTML = scanResult.barcodes.reduce(function (
             string,
             barcode
