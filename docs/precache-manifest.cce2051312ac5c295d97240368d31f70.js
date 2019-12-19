@@ -1,6 +1,6 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "8157603204a6b2a9c42ba66c2fb5b35a",
+    "revision": "635c663302941cf00f73f26b80df9cf0",
     "url": "/scandit/index.html"
   },
   {
